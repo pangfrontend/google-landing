@@ -2,6 +2,171 @@
     box-sizing: border-box;
 }
 
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+html, body {
+    min-width: 400px;
+}
+
+a {
+    text-decoration: none;
+}
+
 .header {
-    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+}
+
+.site-nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 6px;
+}
+
+.nav-item {
+    display: block;
+    padding-left: 16px;
+    font: 13px Roboto,Arial,sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-item.one {
+    padding: 0;
+}
+
+.nav-item.two {
+    padding-left: 15px;
+}
+
+.logo {
+    width: 100%;
+    height: 92px;
+    margin: auto;
+    margin-top: 15px;
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+}
+
+.google-logo {
+    width: 272px;
+    height: 92px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.account-button {
+    border-radius: 50%;
+    padding: 4px 10px;
+    border: none;
+    background-color: rgb(145, 120, 89);
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+#menu-trigger {
+    margin-left: 11px;
+    margin-top: 3px;
+}
+
+.container-search {
+    width: 100%;
+    height: 120px;
+    padding: 20px;
+    margin-top: 6px;
+}
+
+.search-bar {
+    width: 360px;
+    height: 48px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px 8px 0 14px;
+}
+
+.google-lens {
+    width: 24px;
+    height: 24px;
+    margin-top: -7px;
+    margin-right: 2px;
+}
+
+.search-icon {
+    width: 20px;
+    margin-left: -6px;
+    margin-top: -5px;
+}
+
+.search {
+    border: none;
+    width: 259px;
+    height: 27px;
+    padding: 0;
+}
+
+.buttons {
+    padding-top: 18px;
+    height: 70px;
+    padding-left: 35px;
+}
+
+.button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    color: #3c4043;
+    margin: 11px 4px;
+    padding: 0 16px;
+    height: 36px;
+    text-align: center;
+    line-height: 27px;
+}
+
+.button.two {
+    margin-left: 3px;
+}
+
+.language {
+    font-size: small;
+    color: #4d5156;
+    margin: 41px 80px;
+    font-family: arial,sans-serif;
+}
+
+.language-option {
+    padding-left: 3px;
+}
+
+.language-option.two {
+    padding-left: 12px;
+}
+
+.footer {
+    width: 100%;
+    height: 187px;
+    background-color: #f2f2f2;
+    position: relative;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
 }
