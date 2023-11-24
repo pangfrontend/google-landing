@@ -218,19 +218,18 @@ img {
     display: flex;
     justify-content: space-evenly;
     padding: 0 20px;
+    flex-wrap: wrap;
 }
 
 .content-footer.top {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    padding: 0 20px;
 }
 
 .content-footer.bottom {
     display: flex;
-    justify-content: space-evenly;
-    padding: 0 20px;
+    justify-content: center;
 }
 
 .foot-content {
